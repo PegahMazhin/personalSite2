@@ -1,0 +1,88 @@
+header {
+   display: flex;
+   justify-content: space-between;
+   background-color:rgb(242, 102, 219)
+}
+
+body{
+    background-color:rgb(241, 156, 227)
+}
+
+nav{
+    display:flex;
+    gap: 10px;
+    border: 10px;
+ }
+
+ #CIM{
+    text-align: center;
+ }
+
+ img{
+    width: 200px;
+    height: 200px;
+ }
+
+.linkedin{
+    height: 30px;
+    width: 30px;
+    bottom: 200px;
+ }
+
+ .project{
+    border: 5px solid black;
+    margin: 10px;
+ }
+
+ #MP{
+    text-align: center;
+ }
+
+ .about{
+   border: 5px solid black;
+   margin: 10px;
+ }
+
+ .project>h2  {
+   text-align: center;
+ }
+
+ .project>img  {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .about> h3 {
+   text-align: center;
+ }
+
+ .about>img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ #main {
+   border: 5px solid black;
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+@media screen and (max-width:480px) {
+   body{
+      background-color: aqua;
+   }
+}
+main{
+   min-height: 100%;
+}
+
+footer{
+   display: flex;
+   min-height:50px;
+   background-color:rgb(242, 102, 219)
+   
+}
